@@ -8,8 +8,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 8000; // Change this to your server port
-    const host = `7mdb.github.io/fend-restaurant-reviews-app`;
-    return `./data/restaurants.json`;
+    return `/data/restaurants.json`;
   }
 
   /**
